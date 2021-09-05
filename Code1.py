@@ -13,7 +13,7 @@ const ADD:Function;
 protocol SmartSociety(User, Cloud, BaseStation){
 role User{
 const IDu;#user identity
-const PWu;
+const PWu;#user password
 const BFu;
 fresh Ras;
 send_!4(User,Cloud,IDu);
