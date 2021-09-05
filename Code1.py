@@ -64,7 +64,7 @@ send_!7(Cloud,User,Hc,Rc-as,IDc,T2);
 macro  SKe-v = H(IDc,IDu,Ras,Rc );
 claim_Cloud(Cloud,Niagree);#non-injective Agreement
 claim_ Cloud (Cloud, Nisynch);#non-injective Synchronization
-claim_ Cloud (Cloud,Secret, SKe-v);#verify the session key secrecy
+claim_ Cloud (Cloud,Secret, SKe-v);#verify the user and cloud server session key secrecy
 
 }
 }
