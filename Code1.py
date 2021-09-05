@@ -14,7 +14,7 @@ protocol SmartSociety(User, Cloud, BaseStation){
 role User{
 const IDu;#user identity
 const PWu;#user password
-const BFu;
+const BFu;#biometric of the user
 fresh Ras;
 send_!4(User,Cloud,IDu);
 macro BFu=H(BFIu,BFGu);
