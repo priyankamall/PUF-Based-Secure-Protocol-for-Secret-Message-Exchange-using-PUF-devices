@@ -66,6 +66,7 @@ role FD
 	claim_FD4(FD,Secret,Ru);
 	claim_FD5(FD,Secret,Wy);
 }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%		       
 role CS
 {
 	var TFD, Tui: Nonce;
