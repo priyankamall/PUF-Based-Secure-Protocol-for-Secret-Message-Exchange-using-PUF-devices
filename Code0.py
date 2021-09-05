@@ -47,7 +47,7 @@ role Ui
 	claim_Ui7 (Ui,Niagree);
 	claim_Ui8 (Ui,Nisynch);	
 }
-	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%		
 role FD
 {
 	fresh TFD: Nonce;
