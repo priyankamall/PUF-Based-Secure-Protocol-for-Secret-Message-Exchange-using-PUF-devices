@@ -11,6 +11,7 @@ BIDr,IDu,Ras,Tbc,Obc,Nbc,Tbc,Tcb,Rbc,Sc,Rcb,
 SKb-c,C1,XSs,ZSs,R1,SRs,SIDp,CIDq,SKe-v,SKbs-as;
 const ADD:Function;
 protocol SmartSociety(User, Cloud, BaseStation){
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  
 role User{
 const IDu;#user identity
 const PWu;#user password
@@ -36,9 +37,8 @@ claim_User(User,Niagree);#non-injective Agreement
 claim_User(User, Nisynch);#non-injective Synchronization
 claim_User(User,Secret,PWu);#verify the user password secrecy
 claim_User(User,Secret, SKe-v);#verify the user and cloud server session key secrecy
-
 }
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 role Cloud{
 const Sc;
 recv_!1(BaseStation,Cloud,BIDr);
