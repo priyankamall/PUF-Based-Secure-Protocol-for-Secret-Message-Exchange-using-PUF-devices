@@ -83,4 +83,5 @@ role CS
 	claim_CS2(CS, Secret, Wx');
 	claim_CS3(CS, Secret, TCS);
 	claim_CS4(CS,SKR,Ku);
-}}
+}
+		  }
