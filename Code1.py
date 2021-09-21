@@ -68,4 +68,4 @@ claim_Cloud(Cloud,Niagree);#non-injective Agreement
 claim_Cloud(Cloud, Nisynch);#non-injective Synchronization
 claim_Cloud(Cloud,Secret, SKe-v);#verify the user and cloud server session key secrecy
 }
-                }
+}
