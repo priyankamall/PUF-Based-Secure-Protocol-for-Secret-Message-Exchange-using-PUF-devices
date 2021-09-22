@@ -38,7 +38,7 @@ claim_User(User, Nisynch);#non-injective Synchronization
 claim_User(User,Secret,PWu);#verify the user password secrecy
 claim_User(User,Secret, SKe-v);#verify the user and cloud server session key secrecy
 }
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
 role Cloud{
 const Sc;
 recv_!1(BaseStation,Cloud,BIDr);
