@@ -25,7 +25,6 @@ protocol UserValidation(Ui, FD, CS)
 	macro G2' = h(RNUu',Tui,TFD);
 	macro K' =h(IDu,IDCS,Ku,G2',TCS);
 }
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%		
 role Ui
 { 
