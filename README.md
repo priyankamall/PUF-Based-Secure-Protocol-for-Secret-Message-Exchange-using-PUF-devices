@@ -20,3 +20,4 @@ to be better in terms of communication and computation overhead compared
 with two peer protocols.
 
 ![Your Repository's Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=priyankamall&theme=blue-green)
+![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=priyankamall&show_icons=true)
