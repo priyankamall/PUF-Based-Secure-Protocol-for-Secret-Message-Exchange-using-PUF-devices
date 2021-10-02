@@ -26,8 +26,7 @@ protocol UserValidation(Ui, FD, CS)
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%		
 role Ui
-{ 
-	var TFD, TCS : Nonce;
+{ 	var TFD, TCS : Nonce;
 	fresh Tui: Nonce;
 	const IDu, PDu, Bi, Bi', IDCS,
 	TCu',RNUu,Ru,Wy,Wx,SKR :
