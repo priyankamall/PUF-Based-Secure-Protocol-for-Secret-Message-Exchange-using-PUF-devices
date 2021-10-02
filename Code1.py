@@ -43,7 +43,7 @@ role Cloud{
 const Sc;
 recv_!1(BaseStation,Cloud,BIDr);
 const IDc; #cloud server identity
-fresh Rc;#random number
+fresh Rc; #random number
 macro BSr=H(BIDr,Sc);
 send_!2(Cloud,BaseStation,BSr);
 recv_!4(User,Cloud,IDu);
