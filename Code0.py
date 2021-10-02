@@ -3,6 +3,7 @@ const XOR : Function;
 const MatMul : Function ;
 const Gen : Function ;
 const Rep : Function;
+	
 protocol UserValidation(Ui, FD, CS)
 { 	macro Bu = Gen(Bi);
 	macro Au = h(IDu, PDu, h(Bu));
