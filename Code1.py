@@ -42,7 +42,7 @@ claim_User(User,Secret, SKe-v); #verify the user and cloud server session key se
 role Cloud{
 const Sc;
 recv_!1(BaseStation,Cloud,BIDr);
-const IDc;#cloud server identity
+const IDc; #cloud server identity
 fresh Rc;#random number
 macro BSr=H(BIDr,Sc);
 send_!2(Cloud,BaseStation,BSr);
