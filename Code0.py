@@ -68,7 +68,7 @@ role FD
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%			       
 role CS
 {	var TFD, Tui: Nonce;
-	fresh TCS : Nonce;
+	fresh TCS : Nonce; #Timestamp
 	const IDu, IDCS, Tui, Bi ,Bi',TCu',
 	PDu,Wx,Wx',Ru,RNUu,Wy:
 	Ticket;
