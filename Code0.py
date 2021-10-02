@@ -44,8 +44,8 @@ role Ui
 	claim_Ui3(Ui,Secret,Ru);
 	claim_Ui4(Ui,Secret,Wy);
 	claim_Ui6(Ui,SKR,Ku);
-	claim_Ui7 (Ui,Niagree);
-	claim_Ui8 (Ui,Nisynch);	
+	claim_Ui7 (Ui,Niagree); #Non-injective agreement
+	claim_Ui8 (Ui,Nisynch);	#Noninjective synchronization
 }	      
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%			
 role FD
