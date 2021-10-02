@@ -5,7 +5,7 @@ const Gen : Function ;
 const Rep : Function;
 	
 protocol UserValidation(Ui, FD, CS)
-{ 	macro Bu = Gen(Bi);
+{ 	macro Bu = Gen(Bi); #Bio-metric
 	macro Au = h(IDu, PDu, h(Bu));
 	macro Bu' = Rep(Bi', TCu');
 	macro Au' = h(IDu, PDu, h(Bu'));
