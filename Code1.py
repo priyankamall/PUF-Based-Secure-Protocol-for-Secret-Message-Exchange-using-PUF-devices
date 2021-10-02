@@ -34,7 +34,7 @@ macro Hc'=H(IDc,IDu,Ac',BFIu',Rc',T2);
 match(Hc', Hc);
 macro SKe-v = H(IDc,IDu,Ras,Rc );
 claim_User(User,Niagree); #non-injective Agreement
-claim_User(User, Nisynch);#non-injective Synchronization
+claim_User(User, Nisynch); #non-injective Synchronization
 claim_User(User,Secret,PWu);#verify the user password secrecy
 claim_User(User,Secret, SKe-v);#verify the user and cloud server session key secrecy
 }
