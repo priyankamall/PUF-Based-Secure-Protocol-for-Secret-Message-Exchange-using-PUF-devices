@@ -48,8 +48,7 @@ role Ui
 }	      
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%			
 role FD
-{
-	fresh TFD: Nonce;
+{	fresh TFD: Nonce;
 	var Tui : Nonce;
 	const IDu, PDu, IDCS, Bi,TCu',Tui, Bi',
 	PDu, RNUu,Wx,Ru,Wy:
